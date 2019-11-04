@@ -5,7 +5,7 @@
  */
 package proyecto_abm;
 
-import formularios.frm_menu_principal;
+import formularios.frm_menu_usuario;
 
 /**
  *
@@ -13,7 +13,7 @@ import formularios.frm_menu_principal;
  */
 public class Proyecto_ABM {
     public static void main(String[] args) {
-        frm_menu_principal.main(args);
+        frm_menu_usuario.main(args);
     }
     
 }

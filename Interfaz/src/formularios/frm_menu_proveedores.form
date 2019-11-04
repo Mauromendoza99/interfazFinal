@@ -26,7 +26,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="705" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="696" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -121,15 +121,15 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                      <Component id="btn_altaU" min="-2" pref="79" max="-2" attributes="0"/>
+                      <Component id="btn_altaU" min="-2" pref="85" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btn_modificacionU" min="-2" pref="79" max="-2" attributes="0"/>
+                      <Component id="btn_modificacionU" min="-2" pref="85" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btn_bajaU" min="-2" pref="79" max="-2" attributes="0"/>
+                      <Component id="btn_bajaU" min="-2" pref="85" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btn_consultaU" min="-2" pref="79" max="-2" attributes="0"/>
+                      <Component id="btn_consultaU" min="-2" pref="85" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btn_listadoU" min="-2" pref="79" max="-2" attributes="0"/>
+                      <Component id="btn_listadoU" min="-2" pref="85" max="-2" attributes="0"/>
                       <EmptySpace pref="25" max="32767" attributes="0"/>
                       <Component id="btn_salirU" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
@@ -157,7 +157,7 @@
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/imagenes/eliminacionUsuario.png"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Eliminar usuario"/>
+                <Property name="text" type="java.lang.String" value="Eliminar proveedor"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="1"/>
@@ -177,7 +177,7 @@
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/imagenes/modificacionUsuario.png"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Modificar datos de un usuario"/>
+                <Property name="text" type="java.lang.String" value="Modificar datos de un proveedor"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="1"/>
@@ -197,8 +197,7 @@
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/imagenes/consulta.png"/>
                 </Property>
-                <Property name="selected" type="boolean" value="true"/>
-                <Property name="text" type="java.lang.String" value="Buscar un usuario"/>
+                <Property name="text" type="java.lang.String" value="Buscar un proveedor"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="1"/>
@@ -218,7 +217,9 @@
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/imagenes/altaUsuario.png"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Registro de un nuevo usuario"/>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Registro de un nuevo proveedor"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="1"/>
@@ -238,7 +239,7 @@
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/imagenes/listadoUsuario.png"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Ver listado de usuarios"/>
+                <Property name="text" type="java.lang.String" value="Ver listado de proveedor"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="1"/>

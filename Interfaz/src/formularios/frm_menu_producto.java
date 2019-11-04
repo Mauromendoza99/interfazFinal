@@ -14,20 +14,20 @@ import javax.swing.SwingUtilities;
  *
  * @author Hp Pc
  */
-public final class frm_menu_principal extends javax.swing.JFrame {
+public final class frm_menu_producto extends javax.swing.JFrame {
 
     /**
-     * Creates new form frm_menu_principal
+     * Creates new form frm_menu_usuario
      */
-    pnl_alta_usuario pnl_alta_usuario = new pnl_alta_usuario();
-    pnl_eliminacion_usuario pnl_baja_usuario = new pnl_eliminacion_usuario();
-    pnl_modificacion_usuario pnl_modificacion_usuario = new pnl_modificacion_usuario();
-    pnl_busqueda_usuario pnl_busqueda_usuario =new pnl_busqueda_usuario();
-    pnl_listado_usuario pnl_listado_usuario = new pnl_listado_usuario();
+    pnl_alta_producto pnl_alta_producto = new pnl_alta_producto();
+    pnl_eliminacion_producto pnl_baja_producto = new pnl_eliminacion_producto();
+    pnl_modificacion_producto pnl_modificacion_producto = new pnl_modificacion_producto();
+    pnl_busqueda_producto pnl_busqueda_producto =new pnl_busqueda_producto();
+    pnl_listado_producto pnl_listado_producto = new pnl_listado_producto();
     CardLayout vista;
     
 
-    public frm_menu_principal() {
+    public frm_menu_producto() {
         initComponents();
         setExtendedState(MAXIMIZED_BOTH);
         iconoFormulario();
@@ -73,8 +73,8 @@ public final class frm_menu_principal extends javax.swing.JFrame {
 
         btn_bajaU.setBackground(new java.awt.Color(204, 204, 204));
         btn_bajaU.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        btn_bajaU.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/eliminacionUsuario.png"))); // NOI18N
-        btn_bajaU.setText("Eliminar usuario");
+        btn_bajaU.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bajaProducto.png"))); // NOI18N
+        btn_bajaU.setText("Eliminar producto");
         btn_bajaU.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btn_bajaU.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btn_bajaU.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -86,8 +86,8 @@ public final class frm_menu_principal extends javax.swing.JFrame {
 
         btn_modificacionU.setBackground(new java.awt.Color(204, 204, 204));
         btn_modificacionU.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        btn_modificacionU.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/modificacionUsuario.png"))); // NOI18N
-        btn_modificacionU.setText("Modificar datos de un usuario");
+        btn_modificacionU.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/modificarProducto.png"))); // NOI18N
+        btn_modificacionU.setText("Modificar datos de un ducto");
         btn_modificacionU.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btn_modificacionU.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btn_modificacionU.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -99,9 +99,9 @@ public final class frm_menu_principal extends javax.swing.JFrame {
 
         btn_consultaU.setBackground(new java.awt.Color(204, 204, 204));
         btn_consultaU.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        btn_consultaU.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/consulta.png"))); // NOI18N
+        btn_consultaU.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/busqueda.png"))); // NOI18N
         btn_consultaU.setSelected(true);
-        btn_consultaU.setText("Buscar un usuario");
+        btn_consultaU.setText("Buscar un producto");
         btn_consultaU.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btn_consultaU.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btn_consultaU.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -113,8 +113,8 @@ public final class frm_menu_principal extends javax.swing.JFrame {
 
         btn_altaU.setBackground(new java.awt.Color(204, 204, 204));
         btn_altaU.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        btn_altaU.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/altaUsuario.png"))); // NOI18N
-        btn_altaU.setText("Registro de un nuevo usuario");
+        btn_altaU.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/altaProducto.png"))); // NOI18N
+        btn_altaU.setText("Registro de un nuevo producto");
         btn_altaU.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btn_altaU.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btn_altaU.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -126,8 +126,8 @@ public final class frm_menu_principal extends javax.swing.JFrame {
 
         btn_listadoU.setBackground(new java.awt.Color(204, 204, 204));
         btn_listadoU.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        btn_listadoU.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/listadoUsuario.png"))); // NOI18N
-        btn_listadoU.setText("Ver listado de usuarios");
+        btn_listadoU.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/listado.png"))); // NOI18N
+        btn_listadoU.setText("Ver listado de productos");
         btn_listadoU.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btn_listadoU.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btn_listadoU.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
@@ -179,15 +179,15 @@ public final class frm_menu_principal extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel1)
                 .addGap(1, 1, 1)
-                .addComponent(btn_altaU, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_altaU, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn_modificacionU, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_modificacionU, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn_bajaU, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_bajaU, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btn_consultaU, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn_listadoU, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_listadoU, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
                 .addComponent(btn_salirU)
                 .addContainerGap())
@@ -225,7 +225,7 @@ public final class frm_menu_principal extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 705, Short.MAX_VALUE))
+                .addGap(0, 696, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -236,35 +236,35 @@ public final class frm_menu_principal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_bajaUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_bajaUActionPerformed
-       pnl_vista_principal.add(pnl_baja_usuario,"Baja");
+       pnl_vista_principal.add(pnl_baja_producto,"Baja");
         vista.show(pnl_vista_principal, "Baja");
         SwingUtilities.updateComponentTreeUI(this);
         this.repaint();
     }//GEN-LAST:event_btn_bajaUActionPerformed
 
     private void btn_modificacionUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_modificacionUActionPerformed
-        pnl_vista_principal.add(pnl_modificacion_usuario,"Modificacion");
+        pnl_vista_principal.add(pnl_modificacion_producto,"Modificacion");
         vista.show(pnl_vista_principal, "Modificacaion");
         SwingUtilities.updateComponentTreeUI(this);
         this.repaint();
     }//GEN-LAST:event_btn_modificacionUActionPerformed
 
     private void btn_consultaUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_consultaUActionPerformed
-        pnl_vista_principal.add(pnl_busqueda_usuario,"Busqueda");
+        pnl_vista_principal.add(pnl_busqueda_producto,"Busqueda");
         vista.show(pnl_vista_principal, "Busqueda");
         SwingUtilities.updateComponentTreeUI(this);
         this.repaint();
     }//GEN-LAST:event_btn_consultaUActionPerformed
 
     private void btn_altaUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_altaUActionPerformed
-        pnl_vista_principal.add(pnl_alta_usuario, "alta");
+        pnl_vista_principal.add(pnl_alta_producto, "alta");
         vista.show(pnl_vista_principal, "alta");
         SwingUtilities.updateComponentTreeUI(this);
         this.repaint();
     }//GEN-LAST:event_btn_altaUActionPerformed
 
     private void btn_listadoUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_listadoUActionPerformed
-        pnl_vista_principal.add(pnl_listado_usuario,"Listado");
+        pnl_vista_principal.add(pnl_listado_producto,"Listado");
         vista.show(pnl_vista_principal, "Listado");
         SwingUtilities.updateComponentTreeUI(this);
         this.repaint();
@@ -292,20 +292,27 @@ public final class frm_menu_principal extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(frm_menu_principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frm_menu_producto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(frm_menu_principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frm_menu_producto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(frm_menu_principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frm_menu_producto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(frm_menu_principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frm_menu_producto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new frm_menu_principal().setVisible(true);
+                new frm_menu_producto().setVisible(true);
             }
         });
     }

@@ -9,12 +9,12 @@ package formularios;
  *
  * @author Hp Pc
  */
-public class pnl_listado_usuario extends javax.swing.JPanel {
+public class pnl_listado_proveedores extends javax.swing.JPanel {
 
     /**
      * Creates new form pnl_listado_usuario
      */
-    public pnl_listado_usuario() {
+    public pnl_listado_proveedores() {
         initComponents();
     }
 
@@ -39,10 +39,10 @@ public class pnl_listado_usuario extends javax.swing.JPanel {
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 5));
 
         jLabel9.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
-        jLabel9.setText("Listado de usuarios");
+        jLabel9.setText("Listado de proveedor");
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos del Usuario", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 18))); // NOI18N
+        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos del proveedor", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 18))); // NOI18N
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
